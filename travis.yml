@@ -1,6 +1,0 @@
-os: linux
-language: c
-compiler: gcc
-script: make clean test
-sudo: required
-install: make deps
