@@ -1,6 +1,6 @@
 os: linux
+install: make dep
 language: c
 compiler: gcc
 script: make clean test
 sudo: required
-install: make dep
